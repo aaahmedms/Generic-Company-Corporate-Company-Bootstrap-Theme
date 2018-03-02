@@ -25,3 +25,6 @@ Generic Company is a modular SPA style theme that is arranged in a vertical list
 # Credits
 A couple of notes: Images used on the theme are free for use and are licensed under CC0, however videos placed on the webpage are simply example videos which require the authors permission before using. The videos have simply been included as placeholder to show how to include videos from youtube, and should be replaced with your own links. I do not take credit, or claim ownership for any of the videos used in the web theme, all rights for the videos used are held by the authors for their respective work.
 
+
+The library used to generate the graphs was created by FVANCOP, 
+and can be found here: https://github.com/FVANCOP/ChartNew.js
