@@ -1,0 +1,214 @@
+body {
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+#promo {
+  text-align:center;
+  padding:40px;
+  background:url(3PFEM0W441.jpg) no-repeat;
+  background-size:cover;
+  margin-top:65px;
+}
+
+#promo .jumbotron {
+  border-radius:20px;
+  padding:10px;
+  background-color:rgba(255,255,255,0.75);
+  max-width:1000px;
+  margin:0 auto;
+}
+
+@media (max-width:991px) {
+  #promo .jumbotron {
+    padding:20px;
+  }
+}
+
+@media (max-width:991px) {
+  #promo {
+    padding:20px;
+  }
+}
+
+.ct-section {
+  text-align:center;
+  padding-bottom:70px;
+}
+
+.ct-section h1 {
+  font-weight:normal;
+  margin-bottom:30px;
+  margin-top:40px;
+}
+
+#welcome p {
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+  color:#666;
+  padding-bottom:30px;
+}
+
+#welcome2 .item {
+  padding-top:36px;
+  border:solid 1px black;
+  border-color:rgba(255,255,255,0.298039);
+  background-color:rgba(0,0,0,0.4);
+}
+
+#welcome2 .item i {
+  font-size:48px;
+  color:#f1bb40;
+}
+
+#welcome2 .item h2 {
+  font-weight:normal;
+  margin-top:13px;
+  margin-bottom:20px;
+  font-size:24px;
+}
+
+.other-section {
+  background-color:#e0fff2;
+  padding-bottom:70px;
+}
+
+#treeLogo {
+  max-height:42px;
+  margin-right:10px;
+  margin-top:-6px;
+  margin-bottom:10px;
+  display:inline-block;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color:rgb(129,232,162);
+  border-color:transparent;
+}
+
+#welcome2 .item p {
+  color:#666;
+}
+
+.img-responsive {
+  max-height:500px;
+  max-width:500px;
+}
+
+.slider_heading {
+  text-align:center;
+  vertical-align:middle;
+  font-family:'Abril Fatface', cursive;
+}
+
+@media (max-width:767px) {
+  .slider_paragraph {
+    text-align:center;
+    vertical-align:middle;
+    margin-left:10px;
+    margin-right:10px;
+  }
+}
+
+@media (min-width:768px) {
+  .slider_paragraph {
+    text-align:center;
+    vertical-align:middle;
+    margin-left:100px;
+    margin-right:100px;
+  }
+}
+
+@media (min-width:992px) {
+  .slider_paragraph {
+    text-align:center;
+    vertical-align:middle;
+    margin-left:100px;
+    margin-right:100px;
+  }
+}
+
+@media (min-width:1200px) {
+  .slider_paragraph {
+    text-align:center;
+    vertical-align:middle;
+    margin-left:100px;
+    margin-right:100px;
+  }
+}
+
+.btn.btn-primary.btn-lg.slider_btn {
+  height:50px;
+  width:200px;
+  margin:-20px -60px;
+  position:fixed;
+  top:50%;
+  left:45%;
+}
+
+#sidebtn {
+  text-align:right;
+}
+
+#facts_figres {
+  text-align:center;
+}
+
+#aboutUs {
+  height:500px;
+}
+
+@media only screen and (max-width:767px) {
+  #aboutUs {
+    height:807px;
+  }
+}
+
+@media only screen and (max-width:991px) {
+  #aboutUs {
+    height:807px;
+  }
+}
+
+#factsBox {
+  border-bottom:5px solid #53788b;
+  border-top:5px solid #54798c;
+}
+
+@media (max-width:767px) {
+  .btn.btn-default.navbar-btn.menu-side-btn {
+    visibility:hidden;
+  }
+}
+
+@media (min-width:768px) {
+  #logoImg {
+    margin-left:0px;
+  }
+}
+
+@media (min-width:992px) {
+  #logoImg {
+    margin-left:30px;
+  }
+}
+
+@media (min-width:1200px) {
+  #logoImg {
+    margin-left:30px;
+  }
+}
+
+#titleImg {
+  width:1200px;
+  height:240px;
+}
+
+#headingAbout {
+  text-align:center;
+}
+
+#careerTitle {
+  text-align:center;
+}
+

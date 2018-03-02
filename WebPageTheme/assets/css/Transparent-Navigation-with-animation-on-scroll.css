@@ -1,0 +1,103 @@
+.nav {
+  float:right;
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none;
+}
+
+.opaque-navbar {
+  background-color:rgba(0,0,0,0);
+  transition:background-color .5s ease 0s;
+}
+
+.navbar {
+  position:fixed;
+  margin-bottom:0px;
+  border:none;
+  box-shadow:none;
+  -webkit-box-shadow:none;
+}
+
+.navbar-default {
+  background:none;
+}
+
+a {
+  color:#fafafa;
+}
+
+a:hover, a:active, a:focus {
+  color:#c69c6d;
+  text-decoration:none;
+  -webkit-transition:color 0.4s;
+  transition:color 0.4s;
+}
+
+.navbar-nav > li > a {
+  line-height:0px;
+  font-size:14px;
+  font-family:'Monda';
+  letter-spacing:1px;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+  text-shadow:none;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+  background-color:transparent;
+  color:#c69c6d;
+  -webkit-transition:color 0.4s;
+  transition:color 0.4s;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:#fafafa;
+}
+
+.navbar-brand {
+  height:80px;
+  padding:0px;
+}
+
+.nav > li > a {
+  margin-top:15px;
+}
+
+.navbar-nav > li > a {
+  padding-top:0px;
+  padding-bottom:0px;
+  line-height:20px;
+}
+
+button.navbar-toggle {
+  border:none;
+  top:15px;
+}
+
+button.navbar-toggle:hover {
+  border:none;
+  top:15px;
+  background-color:transparent!important;
+}
+
+button.navbar-toggle:active {
+  border:none;
+  top:15px;
+  background-color:transparent!important;
+}
+
+button.navbar-toggle:focus {
+  border:none;
+  top:15px;
+  background-color:transparent!important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color:rgb(16,101,248);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color:transparent;
+}
+
