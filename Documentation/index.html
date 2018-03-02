@@ -1,0 +1,1660 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<meta name="keywords" content="">
+
+	<title>Generic Company Web Theme | Documentation by NetCobra</title>
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/stroke.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shCore.css" media="all">
+	<link rel="stylesheet" type="text/css" href="syntax-highlighter/styles/shThemeDefault.css" media="all">
+
+	<!-- COLORS -->
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		
+</head>
+<body>
+
+	<div id="wrapper">
+
+
+		<section id="top" class="section white">
+
+			<!-- Fixed navbar -->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+				<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			            <span class="sr-only">Toggle navigation</span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+					</button>
+					
+					<img style="display: inline; width:68px; height:68px; PADDING-TOP: 5px;" src="images/logoCobra100x100.png" alt="logo" />
+					<h1 style="display: inline;" class="navbar-brand" href="#top"> NetCobra</h1>
+					
+					
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+						<li><a href="#top">Overview</a></li>
+						<li><a href="#line1">Start Here</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Setup <span class="fa fa-angle-down"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#line2">Requirements</a></li>
+								<li><a href="#line3">How to Setup Web Page</a></li>
+							</ul>
+						</li>
+						
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Theme Options <span class="fa fa-angle-down"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#line5">Modifying Web Theme (Sections)</a></li>
+								<li><a href="#line6">Modifying Web Theme (other)</a></li>
+							</ul>
+						</li>
+						<li><a href="#line8">Support Desk</a></li>
+						<li><a href="#line9">Sources</a></li>
+						<li><a href="#line10">Changelog</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="btn btn-info"><a  href="#top">Top</a></li>
+						<li class="btn btn-primary"><a href="#info">Contact</a></li>
+					</ul>
+		        </div><!--/.nav-collapse -->
+				</div>
+			</nav>
+
+			<div class="container" >
+				<div class="row">
+					<div class="col-md-12">
+						<div class="big-title text-center">
+							<h1>The <mark>Generic Company</mark> Web Theme</h1> 
+							<p id="info" class="lead">by NetCobra / template documentation version 1.0</p>
+						</div><!-- end title -->
+					</div><!-- end 12 -->
+				</div><!-- end row -->
+
+				<hr>
+
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Table of Content<hr></h2>
+		                <div class="row">
+			                <div class="col-md-3">
+			                    <ol class="intro">
+			                        <li><a href="#line1">Getting Started</a></li>
+			                        <li><a href="#line2">Requirements</a></li>
+			                        <li><a href="#line3">How to Setup Web Page</a></li>
+			                        <li><a href="#line5">Modifying Web Theme (Sections)</a>
+											<ul>
+												<li><a href="#sectionarrange">4.1. Arranging Sections</a></li>
+												<li><a href="#sectionnavbar">4.2. Navigation Bar</a></li>
+												<li><a href="#section1">4.3. Slider Intro Section</a></li>
+												<li><a href="#section2">4.4. Introduction Section</a></li>
+												<li><a href="#section3">4.5. Parallaxed Background Section</a></li>
+												<li><a href="#section4">4.5.1 Parallaxed Background Section 2</a></li>
+												<li><a href="#section5">4.6. Features Boxed Section</a></li>
+												<li><a href="#section6">4.7. About Us Section</a></li>
+												<li><a href="#section7">4.8. Services Section</a></li>
+												<li><a href="#section8">4.9. Team Box Section</a></li>
+												<li><a href="#section9">4.9.1. Article Section</a></li>
+												<li><a href="#section10">4.10. Testimonial Section</a></li>
+												<li><a href="#section11">4.11. Trusted Partners Section</a></li>
+												<li><a href="#section12">4.12. Work With Us Section</a></li>
+												<li><a href="#section13">4.13. Footer Section</a></li>
+											</ul>
+										
+									</li>
+			                        <li><a href="#line6">Modifying Web Theme (other)</a>
+											<ul>
+												<li><a href="#modif1">5.1 Side Menu Buttons</a></li>
+												<li><a href="#modif2">5.2 Split Image Section</a></li>
+												<li><a href="#modif3">5.3 Videos Section</a></li>
+												<li><a href="#modif4">5.4 Including and Modifying Graphs</a></li>
+												<li><a href="#modif5">5.5 Google Location Positioning</a></li>
+											</ul>
+									</li>
+			    			         <li><a href="#line8">Support Desk</a></li>
+			                        <li><a href="#line9">Files & Sources</a></li>
+			                        <li><a href="#line10">Version History (Changelog)</a></li>
+			                    </ol>
+			                </div>
+
+			                <div class="col-md-5 drop-caps full">
+			                	<div class="intro1">
+			                    <ul>
+			                        <li><strong>Item Name : </strong> Generic Company </li>
+			                        <li><strong>Item Version : </strong> Version 1.0</li>
+			                        <li><strong>Minumum Required : </strong> Bootstrap v3.3.7, jQuery 1.12.4</li>
+			                        <li><strong>Author by : </strong> NetCobra</li>
+			                        <li><strong>Support via Email : </strong> <a href="mailto:netcobrarl@gmail.com">netcobrarl@gmail.com</a></li>
+			                    </ul>
+			                    </div>
+
+			                	<hr>
+			                	<div class="drop-caps">
+			                    <p>The Generic Company web theme 
+			                    is a modular SPA style theme that is arranged in a vertical list format using a series of modular components, which comprise of containers and divs. The theme can be customized and organized however the user wishes by simply 
+								taking out a div, or container holding a section of the webpage, and then placing it somewhere else within the body of the webpage. The webpage also scales on mobile devices, and is supported on multiple resolutions.
+								</p>
+								<p>This is the perfect web theme for anyone looking to create a professional website for their business, or portfolio and do not have the time to program it from scratch. The following documentation provided here will show the different ways to modify the webpage
+								to better suit the users needs. But before reading further its advised to check the minimum requirements listed above, and to ensure some kind of text editor is used to modify each page. </p>
+								<p>A couple of notes: Images used on the theme are free for use and are licensed under CC0, however videos placed on the webpage are simply example videos which require the authors permission
+								before using. The videos have simply been included as placeholder to show how to include videos from youtube, and should be replaced with your own. I do not take credit, or claim ownership for any of the videos used in the web theme, all rights for the videos used are held by the authors for their respective work.</p>
+			                    <p>The image to the right showcases the various sections that comprise the Generic Company web theme, all of which can be moved around or modified.</p>
+								</div>
+			                </div>
+
+			                <div class="col-md-4" style="height:1128px; overflow-y:auto;">
+				                <img width="100%"  src="upload/screen1gc.png" alt="" class="img-responsive img-thumbnail">
+			                </div>
+
+		                </div><!-- end row -->
+		            </div>		
+		        </div>	
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section id="line1" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">1. Getting Started <a href="#top">#back to top</a><hr></h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+
+				<div class="row">
+					<div class="col-md-12">
+						<p>
+						Because this is a complete beginners guide, the basics will be covered on how to get started.
+						</p>
+
+		        		<h4>Where to Host Web Theme for Others to See</h4>
+						<p>
+						If you do not have any type of hosting service to host your web page, then download a program called XAMPP to host the page locally to see how it will look
+						on all browsers. Its important to note that the graphs will not show until the web page is hosted either on localhost, or on a server of some kind such as hostgator.
+						An FTP client such as filezilla will streamline the process of uploading files onto your server wether it is hosted locally, or on a hosting service.
+						
+						</p>
+				        
+						<h4>Download Link:</h4>
+						<p>
+						The link to download XAMPP for free is here:
+						https://www.apachefriends.org/download.html
+						</p>
+						<p>
+						The link to download FileZilla for free is here:
+						https://filezilla-project.org/download.php
+						</p>
+					
+						
+						<h4>Here is a good video guide on how to host locally using XAMPP:</h4>
+
+						<div class="media">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/k9em7Ey00xQ" frameborder="0" allowfullscreen></iframe>
+						</div>
+				
+						
+						<h4>If not hosting locally:</h4>
+						<p>
+						Simply ignore the above steps and use the guides provided by your hosting service.
+						</p>
+						
+						<h4>Transferring Files Quickly to a Server:</h4>
+						<p>
+						Guides on how to quickly transfer files to any kind of server wether locally, or to a hosting service can be found on Youtube. Simply type in "FTP filezilla to server" on Youtube 
+						for a tutorial on how to do so. Using XAMPP to locally host does not require an FTP client as you can simply drag and drop files onto a localhost then test 
+						the web page quickly. For hosting services an FTP client is more useful as many services mainly accept a limited number of items at once, which becomes tedious
+						and long to add each item one by one, so refer to an FTP client when using a hosting service.
+						</p>
+						
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section id="line2" class="section white">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">2. Requirements <a href="#top">#back to top</a><hr></h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+
+				<p>1. FileZilla - To transfer files quicker to a hosting service. </p>
+						<p>2. XAMPP - For local testing, to test out the web theme or test changes made to the web theme. </p>
+						<p>3. The Generic Company Web Theme - The actual source for the web theme to place in a hosting service of some kind. </p>
+						<p>4. A Web Hosting Service - In order to make the website accessible to others via the World Wide Web, a web hosting service is required.
+						You can test without a hosting service locally using XAMPP with the video guide in the "Getting Started" section above.
+						</p>
+						<p>5. Winrar or Winzip - to open the rar file and extract it to your specified location.
+						</p>
+						
+						<h4>Web Hosting Services:</h4>
+						<p>Here is an article that shows the top 10 best web hosting services, any of these will work:</p>
+						<p>http://www.webhostingbest10.com/</p>
+						
+						<p>A free hosting service will also work just fine.</p>
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section id="line3" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">3. How to Setup Web Page: <a href="#top">#back to top</a><hr></h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+
+				<div class="row">
+					<div class="col-md-12">
+			
+		        		<p>
+						Setting up the page is fairly simple. The first thing to do is simply extract the rar file included using an unzipping program such as winzip or winrar, then
+						drag the files onto the folder of your choice. 
+						</p>
+				        
+							<img width="100%"  src="upload/screen2gc.png" alt="" class="img-responsive img-thumbnail">
+	
+						<p>
+						From there you simply upload the folder onto a hosting service using FileZilla. If you would like to test the web page theme
+						locally, then simply use XAMPP. 
+						</p>
+						
+											
+						<h4>For FileZilla:</h4>
+						<p>
+						For FileZilla simply enter your login information for the service you are using, connect then drag and drop files. 
+						</p>
+						<img width="100%"  src="upload/screen4gc.png" alt="" class="img-responsive img-thumbnail">
+						
+											
+						<h4>For XAMPP:</h4>
+						<p>
+						For XAMPP run Apache and MySQL then press the "Explorer" button to access the localhost folder and upload the "WebPageTheme" folder in the htdocs folder.
+						
+						</p>
+						<img width="100%"  src="upload/screen5gc.png" alt="" class="img-responsive img-thumbnail">
+						<img width="100%"  src="upload/screen6gc.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+						You can now locally test the theme by typing in "http://localhost/WebPageTheme/" in any browser after the folder is placed in the
+						"htdocs" folder. 
+						</p>
+						<img width="100%"  src="upload/screen7gc.png" alt="" class="img-responsive img-thumbnail">
+						
+						
+											
+						<h4>Editing the Files:</h4>
+						<p>
+						The files within the folder (HTML,JS,CSS) can be edited via a text editor such as Notepad++.
+						</p>
+				        
+						<img width="100%"  src="upload/screen3gc.png" alt="" class="img-responsive img-thumbnail">
+				      
+					</div><!-- end col -->
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+
+		<section id="line5" class="section grey">
+		<div class="container">
+		 <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text" id="sectionarrange">4. Modifying Web Theme (Sections): <a href="#top">#back to top</a><hr></h2>
+						
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+				<div class="row">
+					<div class="col-md-12">
+			
+		        		<h4  >4.1. Arranging Sections</h4>
+						
+						<h3 id="sectionnavbar">
+							As mentioned previously the website template is divided into sections that can be rearranged to whatever
+							the user prefers.
+						</h3>
+						
+						<hr style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4 >4.2. Navigation Bar</h4>
+						
+						<img width="100%"  src="upload/navBar.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Navigation Toolbar. You can modify the links in the toolbar by adding, removing or editing the list item tag in the unordered list:
+						</p>
+						<pre class="brush: html"> <li role="presentation"><a href="services.html">Services </a></li> </pre>
+						
+						<p>
+							If you wish to add more links, go through the styles tag to check sizing and ensure it doesn't overflow past the navigation bar.
+						</p>
+				        <pre class="brush: html">
+							<!-- Top Navigation Bar -->
+								<nav class="navbar navbar-default navbar-fixed-top opaque-navbar">
+									<div class="container">
+										<div class="navbar-header">
+											<a class="navbar-brand navbar-link" href="#" style="height:67px;width:160px;"> <img src="assets/img/logo-generic-300px.png" id="logoImg" style="width:160px;background-color:#fefdfd;height:67px;"></a>
+											<button class="navbar-toggle collapsed toggle-animated" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only icon-bar">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+										</div>
+										<div class="collapse navbar-collapse" id="navcol-1">
+											<ul class="nav navbar-nav">
+												<li class="active" role="presentation"><a href="index.html">Home </a></li>
+												<li role="presentation"><a href="services.html">Services </a></li>
+												<li role="presentation"><a href="about.html">About </a></li>
+												<li role="presentation"><a href="contact.html">Contact </a></li>
+												<li role="presentation"><a href="career.html">Career </a></li>
+											</ul>
+											<button class="btn btn-default navbar-btn menu-side-btn" type="button" id="btn1" style="padding:0px 0px 0px 0px;text-align:center;margin:0px;width:160px;height:40px;background:#807f7f;z-index:15;border-radius:5px 5px 0px 0px;-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);transform-origin:bottom right;position:fixed;right:0px;margin-top:50px;background-color:rgb(115,114,112);color:rgb(255,248,248);font-family:Monda, sans-serif;font-size:16px;">Open Jobs</button>
+											<button class="btn btn-default navbar-btn menu-side-btn" type="button" id="btn2" style="padding:0px 0px 0px 0px;text-align:center;margin:0px;width:160px;height:40px;background:#807f7f;z-index:15;border-radius:5px 5px 0px 0px;-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);transform-origin:bottom right;position:fixed;right:0px;margin-top:350px;background-color:rgb(115,114,112);color:rgb(255,248,248);font-family:Monda, sans-serif;font-size:16px;">Contact Us</button>
+										</div>
+									</div>
+								</nav>
+							<!-- end of Top Navigation Bar -->
+				        </pre>
+				        
+						
+				        <hr id="section1" style="height:0.5px;border:none;color:#333;background-color:#333; "/>
+						<h4>4.3. Slider Intro Section</h4>
+						
+						<img width="100%"  src="upload/screen7gc.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Slider Intro Section. The following div controls which slide is shown within the slider. The order of the slides
+							determine which is shown first. Within the Style Tag, the background-image:url() ensures which image is shown. The h1 tag with class "slider_heading" displays
+							the title of the slide, while the paragraph tag with the class "slider_paragraph" displays the description on the slide. Changing the contents on those 3 tags
+							will allow you to modify each slide to your own liking.
+						</p>
+						<pre class="brush: html"> 
+							<div data-aos="fade-up" class="swiper-slide" style="background-image:url("assets/img/slideIMG2.jpg");height:640px;">
+								<div id="slideText" style="margin-top:200px;">
+									<h1 class="slider_heading" style="margin-top:-40px;color:#ffffff;"> Looking for a Realtor? </h1>
+									<p class="slider_paragraph" style="margin-top:40px;color:#ffffff;">Lorem ipsum dolor sit amet, sea posse appetere inimicus ut, ad pri labore nostrum ullamcorper. Ei mucius omnesque verterem duo, prima apeirian eloquentiam qui in, pro te iusto voluptatibus. Ad nobis choro malorum vim. Augue temporibus
+										sea ex, iisque iuvaret mediocrem eum at. Illud verterem ne . </p><a class="btn btn-primary btn-lg slider_btn" role="button" href="#" style="margin-top:150px;">Learn more</a></div>
+							</div>
+						</pre>
+						
+						<p>
+							This is the entire slider section that contains the code above this text:
+						</p>
+				        <pre class="brush: html">
+							<!-- Top Slider -->
+								<div class="simple-slider" style="background-size:contain;">
+									<div class="swiper-container">
+										<div class="swiper-wrapper" style="height:640px;">
+											<div data-aos="fade-up" class="swiper-slide" style="height:640px;background-position:center;background-size:cover;background-image:url(&quot;assets/img/sliderIMG.jpg&quot;);">
+												<div id="slideText" style="margin-top:200px;">
+													<h1 class="slider_heading" style="margin-top:-40px;color:#ffffff;"> The Number 1 Real Estate Company </h1>
+													<p class="slider_paragraph" style="margin-top:40px;color:#ffffff;font-family:Raleway, sans-serif;">Lorem ipsum dolor sit amet, sea posse appetere inimicus ut, ad pri labore nostrum ullamcorper. Ei mucius omnesque verterem duo, prima apeirian eloquentiam qui in, pro te iusto voluptatibus. Ad nobis choro malorum vim. Augue temporibus
+														sea ex, iisque iuvaret mediocrem eum at. Illud verterem ne . </p><a class="btn btn-primary btn-lg slider_btn" role="button" href="#" style="margin-top:150px;">Learn more</a></div>
+											</div>
+											<div data-aos="fade-up" class="swiper-slide" style="background-image:url(&quot;assets/img/slideIMG2.jpg&quot;);height:640px;">
+												<div id="slideText" style="margin-top:200px;">
+													<h1 class="slider_heading" style="margin-top:-40px;color:#ffffff;"> Looking for a Realtor? </h1>
+													<p class="slider_paragraph" style="margin-top:40px;color:#ffffff;">Lorem ipsum dolor sit amet, sea posse appetere inimicus ut, ad pri labore nostrum ullamcorper. Ei mucius omnesque verterem duo, prima apeirian eloquentiam qui in, pro te iusto voluptatibus. Ad nobis choro malorum vim. Augue temporibus
+														sea ex, iisque iuvaret mediocrem eum at. Illud verterem ne . </p><a class="btn btn-primary btn-lg slider_btn" role="button" href="#" style="margin-top:150px;">Learn more</a></div>
+											</div>
+										</div>
+										<div class="swiper-pagination"></div>
+										<div class="swiper-button-prev"></div>
+										<div class="swiper-button-next"></div>
+									</div>
+								</div>
+							<!-- End of Top Slider -->
+				        </pre>
+						
+						<hr id="section2" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.4. Introduction Section</h4>
+						
+						<img width="100%"  src="upload/introsec.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Introduction Section. This section is fairly straight forward, its a div comprised of a header title and then a paragraph 
+							creating the content of your introduction. Simply modify the content in the h1 tag to change title, and the p tag to modify the intro content:
+						</p>
+						
+				        <pre class="brush: html">
+							<!-- Intro Section that describes the company -->
+								<div class="container ct-section" id="welcome"><img src="assets/img/logo-generic-300px.png" data-aos="zoom-in" style="margin-top:60px;background-size:auto;width:360px;height:120px;">
+									<h1 data-aos="fade-up">Always Ensuring the Best Rates</h1>
+									<p data-aos="fade-up">Reque nostrum signiferumque ei his, ex pri suas officiis delicata, mea lorem accusamus te. Qui prima simul maiorum at, no sed congue nullam rationibus. Cu tantas adolescens accommodare ius. Te sea feugait vituperata, ius ei ridens doming verterem.
+										Dico latine accusata cu sit. Ea homero alienum vel. Nam et suas mandamus eloquentiam, ei congue dissentias mediocritatem usu. Ut vis elit nulla iuvaret. Eum et phaedrum accusata. Facete labores legendos ad sed, omnes aliquando ex mei. Lucilius
+										repudiandae mel no, ad dico prodesset definitiones has. Ut duo epicuri salutatus, mei ex efficiendi dissentias temporibus, no mel nostro accusam consulatu. Sed et verear consulatu signiferumque, te his wisi numquam constituam, cum nibh dicant
+										suavitate te. Et vivendum voluptaria persequeris cum. Verterem instructior mea ad. Cu debet habemus splendide vis.</p>
+								</div>
+							<!-- End of Intro Section -->
+				        </pre>
+						
+						<hr id="section3" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.5. Parallaxed Background Section</h4>
+						
+						<img width="100%"  src="upload/parallaxedback.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Parallaxed Background Section. This section can be used for motto's, quotes or slogans the company goes by.
+							Modifying this section is straightforward. Edit the content in the h1 tag to change the title of the section. To modify the image, simply
+							edit the background-image:url() withing the inline style tag of the main div, and place in the name of the image you wish to use instead.
+							For this theme, images are stored within "assets/img/". 
+						</p>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+				        <pre class="brush: html">
+							<!-- Parallaxed Background Section -->
+								<div data-bs-parallax-bg="true" style="height:500px;background-image:url(assets/img/backgroundbuilding.jpg);background-position:center;background-size:cover;">
+									<div style="margin-left:40px;padding-top:40px;">
+										<h1 data-aos="fade-up" style="font-family:Cookie, cursive;font-size:45px;color:#fffdfd;margin-top:200px;text-align:center;">Always Ready to Provide the Best Service</h1></div>
+								</div>
+							<!-- End of Parallaxed Background Section -->	
+						</pre>
+						
+						
+						<hr id="section4"  style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.5.1 Parallaxed Background Section 2</h4>
+						
+						<img width="100%"  src="upload/parralaxed2.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Parallaxed Background Section. This section is similar to the other parallaxed background section, but it shows
+							how you can reposition the text and images in this section. 
+						</p>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+				        <pre class="brush: html">
+						<!-- Parallaxed Background Section 2-->
+						<div data-bs-parallax-bg="true" style="height:500px;background-image:url(&quot;assets/img/quotationIMG.jpg&quot;);background-position:center;background-size:cover;">
+							<div style="margin-left:40px;padding-top:40px;">
+								<h1 data-aos="fade-up" style="font-family:Cookie, cursive;font-size:45px;color:#fffdfd;">Quote, Statement or Motto by company or ceo</h1>
+								<h1 data-aos="fade-up" style="font-family:Cookie, cursive;font-size:45px;color:#fffdfd;">-Company</h1></div>
+						</div>
+						<!-- End of Parallaxed Background Section 2-->
+						</pre>
+						
+						<hr id="section5" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.6. Features Boxed Section</h4>
+						
+						<img width="100%"  src="upload/features-boxed.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Features Boxed Section. The div with the class name "intro", holds the title and general context of what is being offered.
+							Underneath the div with the "intro" class is the div that holds all the boxes containing what is being featured on your website. This div has a class named "row features".
+							Within the "row features" div, is a series of divs that make up the Features Boxed Section. If you wish to add, remove or edit the boxes, 
+							simply modify the following child divs within the parent div containg the class "row features".
+						</p>
+						
+						<pre class="brush: html">
+						<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+												<div class="box"><i class="glyphicon glyphicon-map-marker icon"></i>
+													<h3 class="name">Available Anywhere</h3>
+													<p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+						</div>
+						</pre>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+				        <pre class="brush: html">
+							<!-- Features Boxed Section -->
+								<div class="features-boxed">
+									<div class="container">
+										<div class="intro">
+											<h2 class="text-center" data-aos="zoom-in">Why Work With Us</h2>
+											<p class="text-center" data-aos="zoom-in">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+										</div>
+										<div class="row features">
+											<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+												<div class="box"><i class="glyphicon glyphicon-map-marker icon"></i>
+													<h3 class="name">Available Anywhere</h3>
+													<p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+											</div>
+											<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+												<div class="box"><i class="glyphicon glyphicon-time icon"></i>
+													<h3 class="name">Always on time</h3>
+													<p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+											</div>
+											<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+												<div class="box"><i class="glyphicon glyphicon-list-alt icon"></i>
+													<h3 class="name">quick and easy</h3>
+													<p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+											</div>
+											<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+												<div class="box"><i class="glyphicon glyphicon-leaf icon"></i>
+													<h3 class="name">best rates</h3>
+													<p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+											</div>
+											<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+												<div class="box"><i class="glyphicon glyphicon-plane icon"></i>
+													<h3 class="name">Fast </h3>
+													<p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+											</div>
+											<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+												<div class="box"><i class="glyphicon glyphicon-phone icon"></i>
+													<h3 class="name">up to date</h3>
+													<p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu.</p><a href="#" class="learn-more">Learn more »</a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							<!-- End of Features Boxed Section -->
+						</pre>
+						
+						
+						<hr id="section6" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.7. About Us Section</h4>
+						
+						<img width="100%"  src="upload/aboutus.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the About Us Section. This section is comprised of 3 columns. The background image behind the 3 columns can be changed in the inline style tag in the parent div.
+							The main part of this section is the child div withing the div containing the class "row":
+						</p>
+						
+						<pre class="brush: html">
+						<div class="col-md-4 item" data-aos="zoom-in"><i class="material-icons">phonelink_ring</i>
+											<h2 style="color:#fcfcfc;">Who We Are</h2>
+											<p style="color:#fcfcfc;">Iisque commune recusabo vix eu. Usu soleat quidam disputationi te, per et sonet salutandi eloquentiam. Usu et choro labores laboramus, nam noster repudiare in. Delicata accommodare per no, vix legere dignissim no per et sonet salutandi
+												eloquentiam.. </p>
+						</div>
+						</pre>
+						
+						
+						<p>
+							Simply modify the header 2 tag to change the title. To modify the content of the column, change the content in the paragraph tag.
+						</p>
+						
+				        <pre class="brush: html">
+							<!-- About Us section -->	
+							<div data-bs-parallax-bg="true" id="aboutUs" style="background-image:url(&quot;assets/img/aboutUSIMG.jpg&quot;);background-position:center;background-size:cover;">
+								<div class="container ct-section" id="welcome2">
+									<h1 data-aos="zoom-in" style="color:#fbfcfc;font-family:Cookie, cursive;font-size:45px;"><strong>About Us</strong></h1>
+									<div class="row">
+										<div class="col-md-4 item" data-aos="zoom-in"><i class="material-icons">phonelink_ring</i>
+											<h2 style="color:#fcfcfc;">Who We Are</h2>
+											<p style="color:#fcfcfc;">Iisque commune recusabo vix eu. Usu soleat quidam disputationi te, per et sonet salutandi eloquentiam. Usu et choro labores laboramus, nam noster repudiare in. Delicata accommodare per no, vix legere dignissim no per et sonet salutandi
+												eloquentiam.. </p>
+										</div>
+										<div class="col-md-4 item" data-aos="zoom-in"><i class="material-icons">attach_money</i>
+											<h2 style="color:#fffdfd;">What We Do</h2>
+											<p style="color:#fcfcfc;">Nam malis accusam mediocritatem at, id fuisset maluisset vituperatoribus qui, mucius dolorem antiopam an mea. Ad eum quem mundi tacimates, ea posse consectetuer vim. Eligendi pertinacia sit ne. Id sale tractatos salutandi eos.. </p>
+										</div>
+										<div class="col-md-4 item" data-aos="zoom-in"><i class="fa fa-money"></i>
+											<h2 style="color:#fffdfd;">How We Do It</h2>
+											<p style="color:#fcfcfc;">Ludus causae nec ad, graece eligendi postulant pro ut. Idque pericula nam cu, vis te homero scribentur contentiones. Ne eripuit conceptam duo. Purto summo maiorum vis at, id cum ferri pertinax disputationi, virtute delenit quaerendum
+												in eam. Vide tota eum id.. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of About Us section -->	
+				        </pre>
+						
+						<hr id="section7" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.8. Services Section</h4>
+						
+						<img width="100%"  src="upload/programsandservices.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Services Section. Similar to the About Us Section, this section is comprised of 3 columns which are child divs to the div with the class name
+							"row". To modify each column (service box), edit the child div with the class name "col-md-4 col-sm-4". From this div the title and context of the column box
+							can be changed, along with its color.
+						</p>
+						
+						<pre class="brush: html">
+						<div class="col-md-4 col-sm-4">
+							<div data-aos="slide-up" class="serviceBox green" style="background-color:rgb(255,253,253);">
+								<div class="service-icon" style="background-image:url("assets/img/gradientNoBorder.jpg");"><a href="#"><i class="material-icons" style="font-size:40px;">account_balance</i></a></div>
+								<div class="service-content">
+									<h3>Hassle Free Rental Coverage</h3>
+									<hr>
+									<p style="color:rgb(132,132,132);">Lorem ipsum dolor sit amet, sea posse appetere inimicus ut, ad pri labore nostrum ullamcorper. Ei mucius omnesque verterem duo, prima apeirian eloquentiam qui in, pro te iusto voluptatibus. Ad nobis choro malorum vim. Augue temporibus
+										sea ex, iisque iuvaret mediocrem eum at. Illud verterem ne pro, cu facete nonumes corpora has. </p>
+								</div>
+							</div>
+						</div>
+						</pre>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+						<pre class="brush: html">
+						<!-- Services section -->	
+						<div class="container" id="servicesAndPrograms">
+							<h1 data-aos="zoom-in" style="font-family:Cookie, cursive;font-size:45px;text-align:center;">Programs &amp; Services </h1>
+							<div class="row" style="margin-bottom:30px;">
+								<div class="col-md-4 col-sm-4">
+									<div data-aos="slide-up" class="serviceBox yellow" style="background-color:rgb(255,254,254);">
+										<div class="service-icon" style="background-image:url(&quot;assets/img/gradientNoBorder.jpg&quot;);"><a href="#"><i class="material-icons" style="font-size:50px;">store</i></a></div>
+										<div class="service-content">
+											<h3> Leasing </h3>
+											<hr>
+											<p style="color:rgb(132,132,132);">Lorem ipsum dolor sit amet, sea posse appetere inimicus ut, ad pri labore nostrum ullamcorper. Ei mucius omnesque verterem duo, prima apeirian eloquentiam qui in, pro te iusto voluptatibus. Ad nobis choro malorum vim. Augue temporibus
+												sea ex, iisque iuvaret mediocrem eum at. Illud verterem ne pro, cu facete nonumes corpora has. </p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div data-aos="slide-up" class="serviceBox green" style="background-color:rgb(255,253,253);">
+										<div class="service-icon" style="background-image:url(&quot;assets/img/gradientNoBorder.jpg&quot;);"><a href="#"><i class="material-icons" style="font-size:40px;">account_balance</i></a></div>
+										<div class="service-content">
+											<h3>Hassle Free Rental Coverage</h3>
+											<hr>
+											<p style="color:rgb(132,132,132);">Lorem ipsum dolor sit amet, sea posse appetere inimicus ut, ad pri labore nostrum ullamcorper. Ei mucius omnesque verterem duo, prima apeirian eloquentiam qui in, pro te iusto voluptatibus. Ad nobis choro malorum vim. Augue temporibus
+												sea ex, iisque iuvaret mediocrem eum at. Illud verterem ne pro, cu facete nonumes corpora has. </p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div data-aos="slide-up" class="serviceBox pink" style="background-color:rgb(251,251,251);">
+										<div class="service-icon" style="background-image:url(&quot;assets/img/gradientNoBorder.jpg&quot;);"><a href="#"><i class="fa fa-briefcase" style="font-size:40px;"></i></a></div>
+										<div class="service-content">
+											<h3>Housing Sales</h3>
+											<hr>
+											<p style="color:rgb(132,132,132);">Lorem ipsum dolor sit amet, sea posse appetere inimicus ut, ad pri labore nostrum ullamcorper. Ei mucius omnesque verterem duo, prima apeirian eloquentiam qui in, pro te iusto voluptatibus. Ad nobis choro malorum vim. Augue temporibus
+												sea ex, iisque iuvaret mediocrem eum at. Illud verterem ne pro, cu facete nonumes corpora has. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- End of Services section -->	
+						</pre>
+						
+						<hr id="section8" style="height:1px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.9. Team Box Section</h4>
+						
+						<img width="100%"  src="upload/teamboxed.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Team Box Section. Underneath the div with the class name "row people" is a set of child divs that form 
+							the team member information of each person. If you wish to add more people to the team portfolio simply copy and paste the following div:
+						</p>
+						
+						 <pre class="brush: html">
+						 <div class="col-md-4 col-sm-6 item">
+											<div data-aos="fade-up" class="box"><img class="img-circle team" src="assets/img/team1.jpg">
+												<h3 class="name">David Smith</h3>
+												<p class="title">President &amp; CEO </p>
+												<p class="description">Ea homero alienum vel. Nam et suas mandamus eloquentiam, ei congue dissentias mediocritatem usu. Ut vis elit nulla iuvaret. Eum et phaedrum accusata. Facete labores legendos ad sed, omnes aliquando ex mei. Lucilius repudiandae
+													mel no, ad dico prodesset definitiones has. </p>
+												<div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+											</div>
+										</div>
+						 </pre>
+						
+						<p>
+						Removing this child div from the div with the class name "row people", will remove the person it corresponds to. This can be modified to fit the users liking. The image is changed from the src tag in the div.
+						</p>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+						
+				        <pre class="brush: html">
+							<!-- Team Box section -->	
+							<div data-bs-parallax-bg="true" class="team-boxed" style="background-image:url(&quot;assets/img/teamIMGBackground.jpg&quot;);background-position:center;background-size:cover;">
+								<div class="container">
+									<div data-aos="zoom-in" class="intro">
+										<h2 class="text-center" style="font-family:Cookie, cursive;color:rgb(255,255,255);">Team </h2>
+										<p class="text-center" style="color:rgb(248,250,251);">Reque nostrum signiferumque ei his, ex pri suas officiis delicata, mea lorem accusamus te. Qui prima simul maiorum at, no sed congue nullam rationibus. </p>
+									</div>
+									<div class="row people">
+										<div class="col-md-4 col-sm-6 item">
+											<div data-aos="fade-up" class="box"><img class="img-circle team" src="assets/img/team1.jpg">
+												<h3 class="name">David Smith</h3>
+												<p class="title">President &amp; CEO </p>
+												<p class="description">Ea homero alienum vel. Nam et suas mandamus eloquentiam, ei congue dissentias mediocritatem usu. Ut vis elit nulla iuvaret. Eum et phaedrum accusata. Facete labores legendos ad sed, omnes aliquando ex mei. Lucilius repudiandae
+													mel no, ad dico prodesset definitiones has. </p>
+												<div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 item" data-aos="fade-up">
+											<div class="box"><img class="img-circle team" src="assets/img/team3.jpg">
+												<h3 class="name">Sarah RetField</h3>
+												<p class="title">Property Manager </p>
+												<p class="description">Ea homero alienum vel. Nam et suas mandamus eloquentiam, ei congue dissentias mediocritatem usu. Ut vis elit nulla iuvaret. Eum et phaedrum accusata. Facete labores legendos ad sed, omnes aliquando ex mei. Lucilius repudiandae
+													mel no, ad dico prodesset definitiones has. </p>
+												<div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 item">
+											<div data-aos="fade-up" class="box"><img class="img-circle team" src="assets/img/team2.jpg">
+												<h3 class="name">Clark Damond</h3>
+												<p class="title">Advertising Specialist </p>
+												<p class="description">Ea homero alienum vel. Nam et suas mandamus eloquentiam, ei congue dissentias mediocritatem usu. Ut vis elit nulla iuvaret. Eum et phaedrum accusata. Facete labores legendos ad sed, omnes aliquando ex mei. Lucilius repudiandae
+													mel no, ad dico prodesset definitiones has. </p>
+												<div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of Team Box section -->	
+				        </pre>
+						
+						<hr id="section9" style="height:1px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.9.1. Article Section</h4>
+						
+						<img width="100%"  src="upload/articlesec.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Article Section. This section is very similar to the previous one, the Team Box section.
+							The main difference here is that the box is now clickable and redirects to your article (the article page is included in this template also).
+							The div with the class name "box" contains a onclick tag that links to your article page, simply modify the url there.
+							The Image source is also changed in the same div in the following box column for this section:
+						</p>
+						
+						<pre class="brush: html">
+						<div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+							<div class="box" onclick="location.href='article.html';" style="cursor: pointer;">
+								<p class="title">Article Heading 1</p><img src="assets/img/articleIMG.jpg" class="img-thumbnail article" />
+								<p class="description">Ut duo epicuri salutatus, mei ex efficiendi dissentias temporibus, no mel nostro accusam consulatu. Sed et verear consulatu signiferumque, te his wisi numquam constituam, cum nibh dicant suavitate te. Et vivendum voluptaria persequeris cum. Verterem
+									instructior mea ad. Cu debet habemus splendide vis. 
+								</p>
+							<div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div><i class="glyphicon glyphicon-circle-arrow-right" style="color:#4582ec;font-size:29px;padding-top:10px;"></i></div>
+						</div>
+						</pre>
+						
+						<p>
+						Removing this child div from the div with the class name "row people", will remove the article it corresponds to. This can be modified to fit the users liking.
+						</p>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+						
+				        <pre class="brush: html">
+							<!-- Article section -->	
+								<div data-bs-parallax-bg="true" class="team-boxed" style="background-position:center;background-size:cover;background-color:rgb(238,238,238);">
+									<div class="container">
+										<div class="intro">
+											<h2 class="text-center" data-aos="zoom-in" style="font-family:'Abril Fatface', cursive;font-size:45px;">Our Story</h2></div>
+										<div class="row people" data-aos="fade-up">
+											<div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+												<div class="box" onclick="location.href='article.html';" style="cursor: pointer;">
+													<p class="title">Article Heading 1</p><img src="assets/img/articleIMG.jpg" class="img-thumbnail article" />
+													<p class="description">Ut duo epicuri salutatus, mei ex efficiendi dissentias temporibus, no mel nostro accusam consulatu. Sed et verear consulatu signiferumque, te his wisi numquam constituam, cum nibh dicant suavitate te. Et vivendum voluptaria persequeris cum. Verterem
+														instructior mea ad. Cu debet habemus splendide vis. 
+													</p>
+												<div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div><i class="glyphicon glyphicon-circle-arrow-right" style="color:#4582ec;font-size:29px;padding-top:10px;"></i></div>
+											</div>
+											<div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+												<div class="box" onclick="location.href='article.html';" style="cursor: pointer;">
+													<p class="title">article heading 2</p><img src="assets/img/articleIMG2.jpg" class="img-thumbnail article" />
+													<p class="description">Ut duo epicuri salutatus, mei ex efficiendi dissentias temporibus, no mel nostro accusam consulatu. Sed et verear consulatu signiferumque, te his wisi numquam constituam, cum nibh dicant suavitate te. Et vivendum voluptaria persequeris cum. Verterem
+														instructior mea ad. Cu debet habemus splendide vis. 
+													</p>
+													<div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div><i class="glyphicon glyphicon-circle-arrow-right" style="color:#4582ec;font-size:29px;padding-top:10px;"></i></div>
+											</div>
+											<div class="col-md-4 col-sm-6 item" data-bs-hover-animate="pulse">
+												<div class="box" onclick="location.href='article.html';" style="cursor: pointer;">
+													<p class="title">article heading 3</p><img src="assets/img/articleIMG3.jpg" class="img-thumbnail article" />
+													<p class="description">Salutatus, mei ex efficiendi dissentias temporibus, no mel nostro accusam consulatu. Sed et verear consulatu signiferumque, te his wisi numquam constituam, cum nibh dicant suavitate te. Et vivendum voluptaria persequeris cum. Verterem instructior
+														mea ad. Cu debet habemus splendide vis. 
+													</p>
+													<div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div><i class="glyphicon glyphicon-circle-arrow-right" style="color:#4582ec;font-size:29px;padding-top:10px;"></i></div>
+												</div>
+										</div>
+									</div>
+								</div>
+								<!-- End of Article section -->	
+				        </pre>
+						
+				       <hr id="section10" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.10. Testimonial Section</h4>
+						
+						<img width="100%"  src="upload/testimonialbox.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Testimonial Section. Similar to the About Us Section, this section is comprised of 3 columns which are child divs to the div with the class name
+							"row people". Above the testimonialbox is a div called "intro", and it contains the header and paragraph. If the div with a class name "intro" is removed, then you will be left with only
+							the testimonial boxes. To modify each testimonial box (essentially a div), edit the child div with the class name "col-md-4 col-sm-6 item". From this div the title and context of the column box
+							can be changed, along with its color and image source.
+						</p>
+						
+						<pre class="brush: html">
+						<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+											<div class="box">
+												<p class="description"> IPurto summo maiorum vis at, id lum ferri pertinax disputationi, virtute delenit quaerendum in eam. Vide tota eum id. </p>
+											</div>
+											<div class="author"><img class="img-circle" src="assets/img/team1.jpg">
+												<h5 class="name">Ben Johnson</h5>
+												<p class="title">Partner from company 2</p>
+											</div>
+						</div>
+						</pre>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+						<pre class="brush: html">
+							<!-- Testimonial Section-->
+							<div class="testimonials-clean">
+								<div class="container">
+									<div class="intro">
+										<h2 class="text-center" data-aos="zoom-in" style="font-size:45px;font-family:Cookie, cursive;"><strong>What Others Have to Say</strong></h2>
+										<p class="text-center" data-aos="zoom-in">Testimonials from our valued customers! Nam malis accusam mediocritatem at, id fuisset maluisset vituperatoribus qui, mucius dolorem antiopam an mea. Ad eum quem mundi tacimates, ea posse consectetuer vim.</p>
+									</div>
+									<div class="row people">
+										<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+											<div class="box">
+												<p class="description"> IPurto summo maiorum vis at, id lum ferri pertinax disputationi, virtute delenit quaerendum in eam. Vide tota eum id. </p>
+											</div>
+											<div class="author"><img class="img-circle" src="assets/img/team1.jpg">
+												<h5 class="name">Ben Johnson</h5>
+												<p class="title">Partner from company 2</p>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+											<div class="box">
+												<p class="description">IPurto summo maiorum vis at, id lum ferri pertinax virtute delenit quaerendum in eam maiorum vis at. </p>
+											</div>
+											<div class="author"><img class="img-circle" src="assets/img/team3.jpg">
+												<h5 class="name">Carl Kent</h5>
+												<p class="title">Client from company 1</p>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6 item" data-aos="zoom-in">
+											<div class="box">
+												<p class="description">summo maiorum vis at, id lum ferri pertinax disputationi, virtute delenit quaerendum in eam. Vide tota eum id.&nbsp; </p>
+											</div>
+											<div class="author"><img class="img-circle" src="assets/img/team2.jpg">
+												<h5 class="name">Emily Clark</h5>
+												<p class="title">Customer from company 1</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- End of Testimonial Section-->
+						</pre> 
+						
+						<hr id="section11" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.11. Trusted Partners Section</h4>
+						
+						<img width="100%"  src="upload/brands.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Trusted Partners Section. This section is used to show the partners that you have worked with,
+							or any sponsors/publishers that have invested in your company. This section is fairly straight forward, it contains a header tag for the title
+							of the section, followed by a series of images associated to the brands that you would like to include.
+						</p>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+						<pre class="brush: html">
+						<!-- Trusted Partners Section-->
+						<div class="brands">
+							<h2 class="text-center" style="font-size:45px;font-family:Cookie, cursive;padding-top:20px;margin-bottom:0px;color:rgb(122,126,129);">Trusted Partners</h2>
+							<a href="#"> <img src="assets/img/brandings/instacart.png"><img src="assets/img/brandings/kickstarter.png"><img src="assets/img/brandings/lyft.png"><img src="assets/img/brandings/pinterest.png"><img src="assets/img/brandings/shopify.png"><img src="assets/img/brandings/twitter.png"></a>
+						</div>
+						<!-- End of Trusted Partners Section-->
+						</pre> 
+						
+						<hr id="section12" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.12. Work With Us Section</h4>
+						
+						<img width="100%"  src="upload/workwitus.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Work With Us Section. This section is a generic div that contains a header tag for the title and a paragraph tag for
+							a short description. Within the div is also a button.
+						</p>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+						<pre class="brush: html">
+						<!-- Work With Us Section-->
+						<div class="highlight-blue" style="background-color:#4582ec;">
+							<div class="container">
+								<div class="intro">
+									<h2 class="text-center" style="font-size:45px;font-family:Cookie, cursive;">Work With Us</h2>
+									<p class="text-center">summo maiorum vis at, id cum ferri pertinax disputationi, virtute delenit quaerendum in eam. Vide tota eum id. </p>
+								</div>
+								<div class="buttons"><a class="btn btn-primary" role="button" href="#">Learn more</a></div>
+							</div>
+						</div>
+						<!-- End of Work With Us Section-->
+						</pre> 
+						
+						<hr id="section13" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4>4.13. Footer Section</h4>
+						
+						<img width="100%"  src="upload/footer.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The following code in the index.html is the Footer. The footer is a general bootstrap footer.
+						</p>
+						
+						<p>
+						The full code for this section is the following:
+						</p>
+						<pre class="brush: html">
+						<!-- Footer-->
+						<footer>
+							<div class="container">
+								<div class="row">
+									<div class="col-md-4 col-sm-6 footer-navigation">
+										<h3><a href="#">Company<span>logo </span></a></h3>
+										<p class="links"><a href="#">Home</a><strong> · </strong><a href="#">Services </a><strong> · </strong><a href="#">About</a><strong> · </strong><a href="#">Contact </a><strong> · </strong><a href="#">Career </a></p>
+										<p class="company-name">Company Name © 2015 </p>
+									</div>
+									<div class="col-md-4 col-sm-6 footer-contacts">
+										<div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+											<p><span class="new-line-span">21 Nancy Street</span>Durham, NC 27703</p>
+										</div>
+										<div><i class="fa fa-phone footer-contacts-icon"></i>
+											<p class="footer-center-info email text-left"> +1 123 123456</p>
+										</div>
+										<div><i class="fa fa-envelope footer-contacts-icon"></i>
+											<p> <a href="#" target="_blank">support@company.com</a></p>
+										</div>
+									</div>
+									<div class="clearfix visible-sm-block"></div>
+									<div class="col-md-4 footer-about">
+										<h4>About the company</h4>
+										<p> Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+										</p>
+										<div class="social-links social-icons"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-linkedin"></i></a><a href="#"><i class="fa fa-github"></i></a></div>
+									</div>
+								</div>
+							</div>
+						</footer>
+						<!-- End of Footer-->
+						</pre> 
+						
+						
+						
+					</div><!-- end col -->
+				</div><!-- end row -->
+				</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section id="line6" class="section white">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Modifying Web Theme(other):<a href="#top">#back to top</a><hr></h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+				
+						<hr id="modif1" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4 >5.1. Side Menu Buttons</h4>
+						
+						<img width="100%"  src="upload/buttons.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+							The side menu buttons within the index.html can be found under the Top Navigation Bar section. It functions differently when compared to a normal button.
+							The button uses a javascript code segment to function like a normal button, and with some tricky css it has been changed to a vertical button.
+							The two buttons contain an id. The first button has the id "btn1", while the second one has the id "btn2".
+						</p>
+						
+						<p>
+						Here is the HTML code for the side menu buttons, this is found in the index.html:
+						</p>
+						
+				        <pre class="brush: html">
+								<button class="btn btn-default navbar-btn menu-side-btn" type="button" id="btn1" style="padding:0px 0px 0px 0px;text-align:center;margin:0px;width:160px;height:40px;background:#807f7f;z-index:15;border-radius:5px 5px 0px 0px;-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);transform-origin:bottom right;position:fixed;right:0px;margin-top:50px;background-color:rgb(115,114,112);color:rgb(255,248,248);font-family:Monda, sans-serif;font-size:16px;">Open Jobs</button>
+								<button class="btn btn-default navbar-btn menu-side-btn" type="button" id="btn2" style="padding:0px 0px 0px 0px;text-align:center;margin:0px;width:160px;height:40px;background:#807f7f;z-index:15;border-radius:5px 5px 0px 0px;-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);transform-origin:bottom right;position:fixed;right:0px;margin-top:350px;background-color:rgb(115,114,112);color:rgb(255,248,248);font-family:Monda, sans-serif;font-size:16px;">Contact Us</button>		
+				        </pre>
+						
+						<p>
+						This is the Javascript code used by the button, this can be found in the Btn-Actions-and-Scrolling.js file. Its simply a function thats called once the button is pressed. The Id is used to signify which button runs which function:
+						function.
+						</p>
+						
+				        <pre class="brush: html">
+							/**********************************
+							This is used for the Open Jobs button to
+							take the user to the careers page.
+							*********************************/
+							$("#btn1").click(function() {
+								window.location = "career.html";
+							});
+
+							/*************************************************8
+							This is used for the contact button on the homepage to
+							scroll to the contact section on that page.
+							*****************************************/
+
+							//The #contactContain is id of the destination element, in this case it is the contact container within the page
+							$("#btn2").click(function() {
+								$('html,body').animate({
+									scrollTop: $("#contactContain").offset().top - 65},
+									'slow');
+								/*
+								* The value of 80 is a scale factor takes consideration of the top nav bar height,
+								* this value can be adjusted to however far you want to the scroll down 
+								* towards a web element.
+								*/
+							});    
+						</pre>
+						
+						<hr id="modif2" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4 >5.2. Split Image Section</h4>
+						
+						<img width="100%"  src="upload/splitimage.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+						The Split Image Section is a div comprised of two seperate child divs, one div holds the image, while the other is the text content.
+						</p>
+						
+						<p>
+						Here is the HTML code for the Split Image Section, this is found in the career.html:
+						</p>
+						
+				        <pre class="brush: html">
+						<!-- Split Image Section -->
+							 <div class="row clearmargin clearpadding row-image-txt">
+								<div class="col-xs-12 col-sm-6 col-md-6 clearmargin clearpadding col-sm-push-6" style="background-image:url(&quot;assets/img/teamIMGBackground.jpg&quot;);background-size:cover;height:400px;background-position:center;">
+									<div></div>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6" style="padding:20px;">
+									<h1 data-aos="zoom-in" id="careerTitle">Available Jobs</h1>
+									<hr>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel lorem a lectus finibus bibendum ut sagittis diam. Nunc egestas nulla in elit congue, id pellentesque ex semper. Aenean euismod tellus tincidunt massa eleifend, a efficitur lectus
+										ultricies. Aliquam bibendum et leo quis consectetur. Integer consequat consequat mauris, id porttitor sem feugiat eu. Proin ac neque eu nisi viverra mattis. Curabitur molestie lectus ac sollicitudin faucibus. Duis congue ipsum eget justo
+										egestas blandit.</p>
+									<div style="text-align:center">
+										<button class="btn btn-default btn-lg" type="button" style="color:rgb(255,255,255);background-color:#4582ec;">Learn More</button>
+									</div>
+								</div>
+							</div>	
+						<!-- End of Split Image Section -->
+						</pre>
+						
+						<hr id="modif3" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4 >5.3. Videos Section</h4>
+						
+						<img width="100%"  src="upload/videossection.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+						The video sections has quite a lot of components on it, but modifying it is not overly complex. This section sets up
+						Youtube videos in a playlist format.
+						The div containing the id "video-placeholder" holds the thumbnail image for the first video you are showing.
+						</p>
+						
+						<p>
+						Here is the HTML code for the Videos Section, this is found in the career.html:
+						</p>
+						
+				        <pre class="brush: html">
+							<!-- Video Section -->
+							<div class="container-fluid" id="dqv">
+								<h1 data-aos="zoom-in">Types of Careers</h1>
+								<div class="row">
+									<div class="col-lg-6 col-md-7 col-sm-8">
+										<div id="video-placeholder"><img class="img-responsive" src="assets/img/vid1.png"></div>
+										<div class="row">
+											<div class="col-lg-6 col-md-6 col-sm-7 controls"><i class="material-icons" id="prev">skip_previous</i><i class="material-icons" id="pause">pause</i><i class="material-icons" id="play">play_arrow</i><i class="material-icons" id="next">skip_next</i><i class="material-icons" id="mute-toggle">volume_up</i>
+												<input
+												type="range" min="0" max="100" step="1" id="volume-input" class="dqv-range vol">
+													<div>
+														<div class="dqv-range dur"><span id="current-time">0:00</span><span> / </span><span id="duration">0:00</span></div>
+													</div>
+											</div>
+											<div class="col-lg-6 col-md-6 col-sm-5 controls">
+												<input type="range" value="0" id="progress-bar" class="dqv-range prog">
+											</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-2 col-md-3 col-sm-4" style="width:600px;">
+										<div class="row">
+											<div class="col-lg-12 col-md-10 col-sm-10 vids"><img class="img-responsive thumbnail" src="assets/img/vid1.png" data-video-id="SQVWEbSlJYk"><img class="img-responsive thumbnail" src="assets/img/vid2.png" data-video-id="bzKn7-cHeFA"><img class="img-responsive thumbnail" src="assets/img/vid3.png"
+												data-video-id="OjgFoM8BesU"><img class="img-responsive thumbnail" src="assets/img/vid4.png" data-video-id="D89vacKAcqw"></div>
+										</div>
+									</div>
+								</div>
+							<!-- End of Video Section -->
+						</pre>
+						
+						<p>
+							The column of videos next to the main video can be modified within this div of the code above:
+						</p>
+						
+						<pre class="brush: html">
+						<div class="row">
+							<div class="col-lg-12 col-md-10 col-sm-10 vids"><img class="img-responsive thumbnail" src="assets/img/vid1.png" data-video-id="SQVWEbSlJYk"><img class="img-responsive thumbnail" src="assets/img/vid2.png" data-video-id="bzKn7-cHeFA"><img class="img-responsive thumbnail" src="assets/img/vid3.png"
+								data-video-id="OjgFoM8BesU"><img class="img-responsive thumbnail" src="assets/img/vid4.png" data-video-id="D89vacKAcqw"></div>
+						</div>
+						</pre>
+						
+						<p>
+							The div consists of a set of image elements used for the thumbnail, with a "data-video-id" that corresponds to it. The "data-video-id" is the id assigned to your
+							youtube video. If you have the link "https://www.youtube.com/watch?v=12345Test" then the data-video-id would be "12345Test". This string is placed within the data-video-id tag
+							to determine which video to show.
+						</p>
+						
+							<hr id="modif4" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4 >5.4. Including and Modifying Graphs</h4>
+						
+						<img width="100%"  src="upload/factsandfigures.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+						The included graphs shown in the index.html are generated via Javascript.
+						</p>
+						
+						<p>
+						Here is the HTML code for the generated graphs, this is found in the index.html:
+						</p>
+						
+				        <pre class="brush: html">
+						<!-- Facts and Figures -->	
+						<div class="container-fluid ct-section" id="factsBox" style="background-image:url(&quot;assets/img/gradientNoBorder.jpg&quot;);background-size:cover;padding-bottom:70px;background-position:center;background-repeat:no-repeat;">
+							<h1 data-aos="fade-up" id="facts_figres">Facts and Figures</h1>
+							<div class="row">
+								<div class="col-md-4 col-sm-4">
+									<div data-aos="zoom-in" class="charti" style="margin:10px;">
+										<h1 data-aos="fade-up" id="facts_figres" style="font-size:20px;"> Customers we Have Helped (latest available data, 2014-2016) </h1>
+										   <canvas id="infoChart" width="380" height="380"></canvas>
+
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div data-aos="zoom-in" class="charti" style="margin:10px;">
+										<h1 data-aos="fade-up" id="facts_figres" style="font-size:20px;">Number of Houses sold in CAN (2016) and US(2014) per Month</h1>
+										   <canvas id="infoChart2" width="380" height="380"></canvas>
+
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-4">
+									<div data-aos="zoom-in" class="charti" style="margin:10px;">
+										<h1 data-aos="fade-up" id="facts_figres" style="font-size:20px;">Annual Sales Only in Canada Per Month</h1>
+										   <canvas id="infoChart3" width="380" height="380"></canvas>
+
+									</div>
+								</div>
+								<div class="col-md-12">
+									<h1 data-aos="fade-up" style="font-size:16px;margin-top:0px;">Graph Compiled from data provided by Generic Company:(Generic Company,2017)</h1></div>
+							</div>
+						</div>
+						<!-- End of Facts and Figures -->
+						</pre>
+						
+						<p>
+						A graph is included by adding the following div first to specify the title placed above the graph and the size of the graph:
+						</p>
+						
+						 <pre class="brush: html">
+								<div class="col-md-4 col-sm-4">
+									<div data-aos="zoom-in" class="charti" style="margin:10px;">
+										<h1 data-aos="fade-up" id="facts_figres" style="font-size:20px;"> Customers we Have Helped (latest available data, 2014-2016) </h1>
+										   <canvas id="infoChart" width="380" height="380"></canvas>
+									</div>
+								</div>
+						</pre>
+						
+						<p>
+							The canvas element within this div holds the generated graph. The canvas "id" helps distinguish which canvas to draw the graph on via javascript.
+							Within the On-Load-Create-Graph.js file, there is a corresponding code fragment to this "id". For the example above, this is the code fragment which
+							can be found on On-Load-Create-Graph.js that sets the parameters for the graph:
+						</p>
+						
+						<pre class="brush: javascript">
+								/**************************************** 
+								*first chart 
+								***************************************/
+									
+								//Assign data to graph
+								var mydata =  
+								{
+									labels : ["January","February","March","April","May","June","July"],
+									datasets : [
+										{
+											type: "Line",
+											fill: false,
+											strokeColor : "rgb(230, 14, 14)",
+											pointColor : "rgb(205, 151, 155)",
+											pointStrokeColor : "#f56691",
+											data : [0.30,0.44,0.42,0.19,0.90,0.37,1.20],
+									  title : "line 1"
+										},
+										{
+											fillColor : "rgba(220,220,220,0.5)",
+											strokeColor : "rgba(220,220,220,1)",
+											pointColor : "rgba(220,220,220,1)",
+											pointStrokeColor : "#fff",
+											data : [0.65,0.59,0.90,0.81,0.56,0.55,0.40],
+									  title : "Bar 1"
+										},
+										{
+											fillColor : "rgba(151,187,205,0.5)",
+											strokeColor : "rgba(151,187,205,1)",
+											pointColor : "rgba(151,187,205,1)",
+											pointStrokeColor : "#fff",
+											data : [0.28,0.48,0.40,0.19,0.96,0.27,1.00],
+									  title : "Bar 2"
+										},
+										{
+											type: "Line",
+											fill: false,
+											fillColor : "rgba(151, 205, 172, 0.5)",
+											strokeColor : "rgb(87, 147, 106)",
+											pointColor : "rgb(151, 205, 172)",
+											pointStrokeColor : "#fff",
+											data : [0.42,0.58,0.44,0.22,0.84,0.17,0.70],
+									  title : "Line 2"
+										},
+									]
+								}
+
+								//This part here is to change the settings and options
+								//for the graph.
+								 var options = {
+										 legend : true,
+										 dynamicDisplay : true,
+									 responsive : true,
+										 inGraphDataTmpl: "<&#37;=v3 + (i==0 ?  '    ('+v2+')' : '')&#37;>"
+									};
+
+								var firstChart = new Chart(document.getElementById("infoChart").getContext("2d")).Bar(mydata,options);
+						</pre>
+						
+						<p>
+						The library used to generate the graphs was created by FVANCOP, and can be found here: https://github.com/FVANCOP/ChartNew.js
+						</p>
+						
+						<p>
+						The github page provides a more in depth guide on what type of graphs can be created, along with what parameters for the graphs are available.
+						For reference, the wiki link documentation is https://github.com/FVANCOP/ChartNew.js/wiki , or can be found on the official page posted by FVANCOP.
+						</p>
+						
+						<hr id="modif5" style="height:0.5px;border:none;color:#333;background-color:#333;"/>
+						<h4 >5.5. Google Location Positioning</h4>
+						
+						<img width="100%"  src="upload/locationcontact.png" alt="" class="img-responsive img-thumbnail">
+						
+						<p>
+						Changes to the Company location can be found under the "Contact and Location Section" section in index.html and contact.html. Changes to this section is general,
+						it consists of a series of divs and uses a form action to process the inputted data, the form action has been commented as "Form Action Section".
+						</p>
+						
+						<p>
+						In order to change where the user emails are sent, modify the php code segment within contactform.php.
+						The Form Action Section deals with the user input and the post request of the contact form.
+						This is the HTML portion of the contact form:
+						</p>
+						
+				        <pre class="brush: html">
+						<!-- Form Action Section-->
+						 <form action="assets/php/contactform.php" method="post">
+							<div class="row">
+								<div class="col-md-6">
+									<div id="successfail"></div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-6" id="message">
+									<fieldset class="skip2">
+										<legend><i class="fa fa-envelope"></i> Contact Us</legend>
+									</fieldset>
+						....
+								</div>
+							</div>
+						</form>
+						<!-- End of Form Action Section -->
+						</pre>
+						
+						<p>
+						To change where the email is sent to, modify this code fragment within contactform.php:
+						</p>
+						
+						<pre class="brush: html">
+						<?php
+							/* Set e-mail recipient */
+							$myemail  = "your_email@gmail.com";
+							...
+						?>
+						</pre>
+						
+						<p>
+						This is the php script that corresponds to the post request of the form:
+						</p>
+						<pre class="brush: html">
+						<?php
+							/* Set e-mail recipient */
+							$myemail  = "your_email@gmail.com";
+
+							/* Check all form inputs using check_input function */
+							$yourname = check_input($_POST['from_name'], "Enter your name");
+							$phonenum = check_input($_POST['from_phone'], "Enter your phone number");
+							$subject  = check_input($_POST['from_subject'], "Write a subject");
+							$email    = check_input($_POST['from_email']);
+							$comments = check_input($_POST['comments'], "Write your comments");
+							$calltime = check_input($_POST['Call_Time'], "Call time");
+
+							/* If e-mail is not valid show error message */
+							if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/", $email))
+							{
+								show_error("E-mail address not valid");
+							}
+
+
+							/* Let's prepare the message for the e-mail */
+							$message = "
+
+							Your contact form has been submitted by:
+
+							Name: $yourname
+							E-mail: $email
+							Phone#: $phonenum
+							Call-Time: $calltime
+
+							Subject: $subject 
+
+							Message:
+							$comments
+
+							End of message
+							";
+
+							/* Send the message using mail() function */
+							mail($myemail, $subject, $message);
+
+							/* Redirect visitor to the thank you page */
+							header('Location: ../successmessage.html');
+							exit();
+
+							/* Functions we used */
+							function check_input($data, $problem='')
+							{
+								$data = trim($data);
+								$data = stripslashes($data);
+								$data = htmlspecialchars($data);
+								if ($problem && strlen($data) == 0)
+								{
+									show_error($problem);
+								}
+								return $data;
+							}
+
+							function show_error($myError)
+							{
+							?>
+								<html>
+								<body>
+
+								<b>Please correct the following error:</b><br />
+								<?php echo $myError; ?>
+
+								</body>
+								</html>
+							<?php
+							exit();
+							}
+							?>
+						</pre>
+						
+						<p>
+						The image maps image can be generated using a google static map generator. You can use a website such as https://staticmapmaker.com to help generate the web element, then simply place
+						this within the div with the class "static-map".
+						
+						The generated static google maps image can be placed here under index.html and contact.html:
+						</p>
+						
+				        <pre class="brush: html">
+						<!-- Contact and Location Section -->
+						..
+						<div class="col-md-12">
+                            <div class="static-map">
+                                <a href="https://www.google.com/maps/place/Albany,+NY/"><img src="https://maps.googleapis.com/maps/api/staticmap?center=Albany,+NY&zoom=13&scale=1&size=600x300&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of Albany, NY"></a>
+                            </div>
+                        </div>
+						..
+						<!-- End of Contact and Location Section -->
+						</pre>
+						
+						<p>
+						For this template a regular image is used, although a static map with google maps can be used if you have a key, if not simply place the image here to change it:
+						</p>
+						
+						<pre class="brush: html">
+						<!-- Contact and Location Section -->
+						..
+						<div class="col-md-12">
+                            <div class="static-map">
+									<img src="images/maps.png" alt="map of location">
+                             </div>
+                        </div>
+						..
+						<!-- End of Contact and Location Section -->
+						</pre>
+						
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		
+
+		<section id="line8" class="section white">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Support Desk <a href="#top">#back to top</a><hr></h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+
+		        <div class="row">
+					<div class="col-md-6">
+						<p>Please remember you have purchased a very affordable theme and you have not paid for a full-time web design agency. Occasionally we will help with small tweaks, but these requests will be put on a lower priority due to their nature. Support is also 100% optional and we provide it for your connivence, so please be patient, polite and respectful.</p>
+		                
+		                <p>For any questions or inquiries please email us at <strong>netcobrarl@gmail</strong></a></p>
+		            
+		                <strong>Support for items includes:</strong>
+		                <ul>
+		                    <li>* Responding to questions or problems regarding the item and its features</li>
+		                    <li>* Fixing bugs and reported issues</li>
+		                    <li>* Providing updates to ensure compatibility with new software versions</li>
+		                </ul>
+		                <strong>Item support does not include:</strong>
+		                <ul>
+		                    <li>* Customization and installation services</li>
+		                    <li>* Support for third party software and plug-ins</li>
+		                </ul>  
+
+					</div>
+		            
+		        	<div class="col-md-6">
+		              	<strong>Before seeking support, please...</strong>
+							<ul>
+		                        <li>* Make sure your question is a valid Theme Issue and not a customization request.</li>
+		                        <li>* Make sure you have read through the documentation and any related video guides before asking support on how to accomplish a task.</li>
+		                        <li>* Make sure to double check the theme FAQs.</li>
+		                        <li>* Try disabling any active plugins to make sure there isn't a conflict with a plugin. And if there is this way you can let us know.</li>
+		                        <li>* If you have customized your theme and now have an issue, back-track to make sure you didn't make a mistake. If you have made changes and can't find the issue, please provide us with your changelog.</li>
+		                        <li>* Almost 80% of the time we find that the solution to people's issues can be solved with a simple "Google Search". You might want to try that before seeking support. You might be able to fix the issue yourself much quicker than we can respond to your request.</li>
+		                        <li>* Make sure to state the name of the theme you are having issues with when requesting support.</li>
+		  					</ul>
+		            </div>
+		         </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section id="line9" class="section grey">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Files & Sources <a href="#top">#back to top</a><hr></h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+
+		        <div class="row">
+					
+		        	<div class="col-md-6">
+		                <strong>Included Stylesheets</strong>
+		                
+		                <p>These are the primary CSS files used for general front-end styling. Use these to customize your theme even further. All included CSS files can be found under <strong>/GenericCompanyTheme/WebPageTheme/assets/css</strong></p>
+		                
+		                <ul>
+							<li>1. bootstrap.min.css - Bootstrap stylesheet</li>
+						   <li>2. Article-Clean.css - Article Page stylesheet</li>
+							<li>3. Brands.css - Brands Section stylesheet</li>
+							<li>4. Contact-FormModal-Contact-Form-with-Google-Map.css - Brands Section stylesheet</li>						 
+							<li>5. dh-row-text-image-right-responsive.css - Heading Section Alignment stylesheet</li>
+							<li>6. Dynamically-Queue-Videos.css - Videos Section stylesheet</li>
+						   <li>7. Features-Boxed.css - Features Boxed Section stylesheet</li>
+							<li>8. Features-Boxed.css - Features Boxed Section stylesheet</li>
+							<li>9. Highlight-Blue.css - Work With Us Section stylesheet</li>
+							<li>10. Pretty-Footer.css - Footer stylesheet</li>
+							<li>11. Service-Box-Style-01.css - Services section stylesheet</li>
+							<li>12. Simple-Slider.css - Slider (Top Slider) stylesheet</li>
+							<li>13. swiper.min.css - Also for Slider (Top Slider) stylesheet</li>
+							<li>15. styles.css - Primary stylesheet</li>
+							<li>16. Team-Boxed.css - Team Box and Article Row on index section stylesheet</li>
+							<li>17. Testimonials.css - Testimonial Section stylesheet</li>
+							<li>18. Transparent-Navigation-with-animation-on-scroll.css - Top Navigation Bar stylesheet</li>
+							<li>19. Transparent-Navigation-with-animation-on-scroll1.css - Top Navigation Bar while scrolling (turns navbar transparent) stylesheet</li>
+		                </ul>
+						
+							<strong>Included PHP</strong>
+		                
+		                <p>These are the PHP files included or modified to work with this theme. All included PHP files can be found under <strong>/GenericCompanyTheme/WebPageTheme/assets/php</strong></p>
+		                
+		                <ul>
+		                    <li>1. contactform.php - PHP code for contact form</li>		                   
+		                </ul>
+		                
+		        	</div>
+
+		        	<div class="col-md-6">
+		                <strong>Included JavaScript</strong>
+		                
+		                <p>These are the various attribution links to the Javascript files included or modified to work with in this theme. All included JavaScript files can be found under <strong>/GenericCompanyTheme/WebPageTheme/assets/js</strong></p>
+		                
+		                <ul>
+		                    <li>1. bootstrap.min.js - Bootstrap JavaScript</li>
+		                    <li>2. bs-animation.js - Parallax Javascript Effect</li>
+		                    <li>3. Btn-Actions-and-Scrolling.js - Retina JavaScript</li>
+		                    <li>4. ChartNew.js - Library used to generate Graphs</li>
+		                    <li>5. Contact-FormModal-Contact-Form-with-Google-Map.js - Simple tooltip JavaScript</li>
+		                    <li>6. jquery.min.js - Base JavaScript</li>
+		                    <li>7. On-Load-Create-Graph.js - Javascript used to set parameters for graphs, then generate them on page</li>
+		                    <li>8. swiper.jquery.min.js - Mobile Touch Slider and Framework JavaScript</li>
+							 <li>9. Simple-Slider.js - Swiper Api used to create Slider JavaScript</li>
+		                    <li>10. Transparent-Navigation-with-animation-on-scroll.js - Javascript Scrolling past Offset</li>
+		                    <li>11. Transparent-Navigation-with-animation-on-scroll1.js - Javascript used to add or remove classes on navbar when scrolling</li>
+		                </ul>
+						
+						<hr>
+						
+						 <strong>Included HTML</strong>
+		                
+		                <p>These are the HTML files included or modified to work with this theme. All included HTML files can be found under <strong>/GenericCompanyTheme/WebPageTheme</strong></p>
+		                
+		                <ul>
+		                    <li>1. about.html - About page for company</li>
+		                    <li>2. article.html - Article page for written articles</li>
+		                    <li>3. career.html - Career information page for company</li>
+		                    <li>4. contact.html - Contact Page for company</li>
+		                    <li>5. index.html - Main Page</li>
+		                    <li>6. services.html - Offered Services and Programs page</li>
+							<li>7. successmessage.html - Success message page when message is sent from contact form</li>
+		                </ul>
+						
+					
+						
+		        	</div>
+				
+		        </div><!-- end row -->
+			
+				
+				
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+		<section id="line10" class="section white">
+			<div class="container">
+		        <div class="row">
+		            <div class="col-md-12 left-align">
+		                <h2 class="dark-text">Version History (Changelog) <a href="#top">#back to top</a><hr></h2>
+		            </div><!-- end col -->
+		        </div><!-- end row -->
+
+		        <div class="row">
+					<div class="col-md-12">
+
+				        <p>You can find the version history (changelog.txt) file on <strong>yourthemename-full.zip</strong> folder or you can check changelog on theme sale page.</p>
+				        <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+
+				        <hr>
+
+				        <h4>Changelog</h4>
+
+						<pre class="brush: html">
+
+						-----------------------------------------------------------------------------------------
+						Version 3.8.2 - May 7th, 2015
+						-----------------------------------------------------------------------------------------
+						- fixed formatting issues with theme
+						- fixed button styling issue for side menu buttons
+						- fixed contact form bug that wouldn't send inputted data
+						- new contact form script to handle post request
+
+
+				        </pre>
+				        		        
+        			</div>
+		         </div><!-- end row -->
+			</div><!-- end container -->
+		</section><!-- end section -->
+
+	</div><!-- end wrapper -->
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/retina.js"></script>
+	<script src="js/jquery.fitvids.js"></script>
+	<script src="js/wow.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+
+	
+
+    <!-- CUSTOM PLUGINS -->
+	<script src="js/custom.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+
+	<script src="syntax-highlighter/scripts/shCore.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushXml.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushCss.js"></script>
+	<script src="syntax-highlighter/scripts/shBrushJScript.js"></script>
+
+</body>
+</html>
