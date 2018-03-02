@@ -3,17 +3,17 @@ Generic Company is a modular SPA style theme that is arranged in a vertical list
 
 
 
-Features
--HTML5 and CSS3
--Organized modern design for businesses
--Modular components which makes it easy to modify
--Built with Bootstrap 3
--Retina ready
--Integrated graphs and statistics library for generating graphs
--Working contact form written in php
--Includes alternate pages linked to main page
+# Features
+1. HTML5 and CSS3
+2. Organized modern design for businesses
+3. Modular components which makes it easy to modify
+4. Built with Bootstrap 3
+5. Retina ready
+6. Integrated graphs and statistics library for generating graphs
+7. Working contact form written in php
+8. Includes alternate pages linked to main page
 
-Pages
+# Pages
 1. about.html - About page for company
 2. article.html - Article page for written articles
 3. career.html - Career information page for company
@@ -22,6 +22,6 @@ Pages
 6. services.html - Offered Services and Programs page
 7. successmessage.html - Success message page when message is sent from contact form
 
-Credits
+# Credits
 A couple of notes: Images used on the theme are free for use and are licensed under CC0, however videos placed on the webpage are simply example videos which require the authors permission before using. The videos have simply been included as placeholder to show how to include videos from youtube, and should be replaced with your own links. I do not take credit, or claim ownership for any of the videos used in the web theme, all rights for the videos used are held by the authors for their respective work.
 
