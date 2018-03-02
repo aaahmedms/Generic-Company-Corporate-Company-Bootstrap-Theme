@@ -1,7 +1,7 @@
 # Generic-Company Corporate Company Bootstrap Theme
 Generic Company is a modular SPA style theme that is arranged in a vertical list format using a series of organized web element components. The theme can be customized and organized however the user wishes by simply taking out a section of the webpage, and then placing it somewhere else within the body of the html file. The webpage also scales on mobile devices, and is supported on multiple resolutions.
 
-![screen1gc](https://user-images.githubusercontent.com/20860945/36914591-d752cfce-1e1b-11e8-95e4-550b8af46d5f.png)
+<img width="674" alt="screen1gc" src="https://user-images.githubusercontent.com/20860945/36914770-6cb27e20-1e1c-11e8-80ac-9686ad85414d.png">
 
 # Features
 1. HTML5 and CSS3
